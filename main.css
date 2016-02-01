@@ -1,0 +1,12 @@
+.name i {
+  margin: 0 15px; }
+
+.main-menu li {
+  border-bottom: 1px solid white; }
+
+.main-menu i {
+  float: right;
+  margin: 15px; }
+
+.top-bar-section .dropdown li {
+  width: 200%; }
