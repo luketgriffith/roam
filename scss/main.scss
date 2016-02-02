@@ -97,3 +97,52 @@
     border: 1px solid #EEE;
   }
 }
+.post{
+  width: 40%;
+  border: 1px solid #EEE;
+}
+.post_img{
+  padding: 0;
+  padding-top: .5rem;
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+.post_name{
+  padding-top: .5rem;
+    h4{
+      font-size: 1em;
+      font-weight: bold;
+    }
+    span{
+      font-size: .7em;
+    }
+}
+.post_date{
+  padding: .5rem;
+  padding-top: .2rem;
+  text-align: right;
+  span{
+    font-size: .6em;
+  }
+}
+.post_text{
+  margin-top: 10px;
+  p{
+    font-size: .8em;
+  }
+}
+.post_buttons{
+  padding: .5rem;
+  a{
+    padding: 3px;
+    border: 1px solid #EEE;
+    color: black;
+  }
+  .report_btn a{
+    float: right;
+    font-size: .7em;
+  }
+}
