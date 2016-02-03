@@ -19,12 +19,13 @@
   padding: .5rem; }
   .main_nav_left .main_nav_int {
     padding: .5rem;
-    border: 1px solid #EEE;
-    text-align: center; }
+    border: 1px solid #9A9FA1;
+    text-align: center;
+    margin-bottom: 15px; }
   .main_nav_left .main_cap {
     padding: .5rem; }
   .main_nav_left .main_nav_list {
-    border: 1px solid #EEE; }
+    border: 1px solid #9A9FA1; }
   .main_nav_left .main_nav_list ul {
     list-style: none;
     padding: .5rem;
@@ -44,9 +45,7 @@
   padding: .5rem; }
 
 .mid_int {
-  padding: .5rem;
-  text-align: center;
-  border: 1px solid #EEE; }
+  text-align: center; }
   .mid_int img {
     width: 70%;
     display: block;
@@ -54,22 +53,29 @@
   .mid_int a {
     color: black;
     font-size: .7rem; }
+  .mid_int .mid_int_top {
+    padding: .5em;
+    border: 1px solid #9A9FA1;
+    margin-bottom: 10px; }
   .mid_int .create_post {
     padding: .5rem;
-    border: 1px solid #EEE;
-    margin: 20px 0; }
+    border: 1px solid #9A9FA1;
+    margin: 10px 0; }
     .mid_int .create_post .create_two {
       padding: 0;
       padding-right: .5rem; }
     .mid_int .create_post .create_img {
       padding: 0;
       padding-right: .5rem; }
+    .mid_int .create_post .create_select select {
+      margin-bottom: 0; }
     .mid_int .create_post .create_btn {
       padding: 0; }
       .mid_int .create_post .create_btn button {
         height: 35px;
         line-height: 5px;
-        float: right; }
+        float: right;
+        margin-bottom: 0; }
   .mid_int .create_post i {
     font-size: 3.2em;
     float: right; }
@@ -78,22 +84,24 @@
   padding: .5rem; }
   .right_content .right_int {
     padding: .5rem;
-    border: 1px solid #EEE; }
+    border: 1px solid #9A9FA1; }
 
 .post {
-  width: 40%;
-  border: 1px solid #EEE; }
+  margin: 10px 0;
+  border: 1px solid #9A9FA1; }
+  .post hr {
+    margin: 5px 0; }
 
 .post_img {
   padding: 0;
   padding-top: .5rem; }
   .post_img img {
     display: block;
-    margin: 0 auto;
-    width: 70%; }
+    margin: 0 auto; }
 
 .post_name {
-  padding-top: .5rem; }
+  padding-top: .5rem;
+  text-align: left; }
   .post_name h4 {
     font-size: 1em;
     font-weight: bold; }
@@ -110,14 +118,45 @@
 .post_text {
   margin-top: 10px; }
   .post_text p {
+    text-align: left;
     font-size: .8em; }
+
+.post_img_main {
+  padding: 0; }
+
+.post_img_main img {
+  margin: 5px 0; }
 
 .post_buttons {
   padding: .5rem; }
   .post_buttons a {
     padding: 3px;
-    border: 1px solid #EEE;
+    border: 1px solid #9A9FA1;
     color: black; }
   .post_buttons .report_btn a {
     float: right;
     font-size: .7em; }
+
+.right_content hr {
+  margin: 10px 0; }
+
+.right_addr {
+  padding: 0;
+  margin: 10px 0; }
+
+.right_address {
+  margin-bottom: 10px; }
+
+.right_addr h4 {
+  padding: 0;
+  margin: 0;
+  font-size: .6em;
+  font-weight: bold; }
+
+.right_cal {
+  border: 1px solid #9A9FA1;
+  overflow-x: scroll;
+  width: 100%; }
+
+.right_cal h3 {
+  font-size: 1em; }
