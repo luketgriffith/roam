@@ -22,7 +22,7 @@
     padding: .5rem;
     border: 1px solid #9A9FA1;
     text-align: center;
-    margin-bottom: 15px;
+    // margin-bottom: 15px;
   }
   .main_cap{
     padding: .5rem;
@@ -44,9 +44,13 @@
 .copyright{
   font-size: .6em;
 }
+.main_cap{
+  margin-bottom: 10px;
+}
 .main_cap h4{
-  font-size: .9rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin: 0;
 }
 .main_cap span{
   font-size: .7rem;
@@ -55,13 +59,19 @@
 
   padding: .5rem;
 }
+
 .mid_int{
-  // padding: .5rem;
+  padding: 0;
   text-align: center;
+
   img{
-    width: 70%;
+    width: 50%;
+    height: auto;
     display: block;
     margin: 0 auto;
+  }
+  img:hover{
+    cursor: pointer;
   }
   a{
     color: black;
@@ -121,14 +131,17 @@
   padding: 0;
   padding-top: .5rem;
   img{
+    width: 80%;
     display: block;
     margin: 0 auto;
   }
 }
 .post_name{
+  padding: 0;
   padding-top: .5rem;
   text-align: left;
     h4{
+      margin: 0;
       font-size: 1em;
       font-weight: bold;
     }
@@ -167,7 +180,10 @@
     float: left;
   }
   .like_btn{
-
+    padding: 0;
+  }
+  .report_btn{
+    padding: 0;
   }
   .report_btn a{
     float: right;

@@ -20,8 +20,7 @@
   .main_nav_left .main_nav_int {
     padding: .5rem;
     border: 1px solid #9A9FA1;
-    text-align: center;
-    margin-bottom: 15px; }
+    text-align: center; }
   .main_nav_left .main_cap {
     padding: .5rem; }
   .main_nav_left .main_nav_list {
@@ -38,9 +37,13 @@
 .copyright {
   font-size: .6em; }
 
+.main_cap {
+  margin-bottom: 10px; }
+
 .main_cap h4 {
-  font-size: .9rem;
-  font-weight: bold; }
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0; }
 
 .main_cap span {
   font-size: .7rem; }
@@ -49,11 +52,15 @@
   padding: .5rem; }
 
 .mid_int {
+  padding: 0;
   text-align: center; }
   .mid_int img {
-    width: 70%;
+    width: 50%;
+    height: auto;
     display: block;
     margin: 0 auto; }
+  .mid_int img:hover {
+    cursor: pointer; }
   .mid_int a {
     color: black;
     font-size: .7rem; }
@@ -100,13 +107,16 @@
   padding: 0;
   padding-top: .5rem; }
   .post_img img {
+    width: 80%;
     display: block;
     margin: 0 auto; }
 
 .post_name {
+  padding: 0;
   padding-top: .5rem;
   text-align: left; }
   .post_name h4 {
+    margin: 0;
     font-size: 1em;
     font-weight: bold; }
   .post_name span {
@@ -138,6 +148,10 @@
     border: 1px solid #9A9FA1;
     color: black;
     float: left; }
+  .post_buttons .like_btn {
+    padding: 0; }
+  .post_buttons .report_btn {
+    padding: 0; }
   .post_buttons .report_btn a {
     float: right;
     font-size: .7em; }
