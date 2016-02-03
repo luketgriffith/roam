@@ -35,6 +35,9 @@
       text-decoration: underline;
       margin: 10px 0; }
 
+.copyright {
+  font-size: .6em; }
+
 .main_cap h4 {
   font-size: .8rem; }
 
@@ -132,7 +135,8 @@
   .post_buttons a {
     padding: 3px;
     border: 1px solid #9A9FA1;
-    color: black; }
+    color: black;
+    float: left; }
   .post_buttons .report_btn a {
     float: right;
     font-size: .7em; }
@@ -155,8 +159,47 @@
 
 .right_cal {
   border: 1px solid #9A9FA1;
+  border-bottom: none;
   overflow-x: scroll;
   width: 100%; }
+  .right_cal td {
+    border-right: 1px solid black; }
 
 .right_cal h3 {
   font-size: 1em; }
+
+.room {
+  padding: .5em; }
+
+.avail_rooms {
+  border: 1px solid #9A9FA1;
+  border-top: none;
+  padding: 0;
+  height: 400px;
+  overflow-y: scroll; }
+  .avail_rooms p {
+    font-size: .6em; }
+  .avail_rooms .room_int {
+    padding: 0; }
+
+.avail_rooms h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold; }
+
+.avail_rooms h4 {
+  font-size: 1em; }
+
+.room_btn {
+  padding-top: 1rem;
+  padding-left: 0; }
+
+.room_btn a {
+  color: white;
+  background-color: #0297C2;
+  padding: 6px;
+  float: left; }
+
+@media (max-width: 1000px) {
+  .content {
+    width: 100%; } }
