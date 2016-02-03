@@ -45,7 +45,8 @@
   font-size: .6em;
 }
 .main_cap h4{
-  font-size: .8rem;
+  font-size: .9rem;
+  font-weight: bold;
 }
 .main_cap span{
   font-size: .7rem;
@@ -179,17 +180,22 @@
   }
 }
 .right_addr{
-  padding: 0;
+  padding: .2em;
   margin: 10px 0;
 }
 .right_address{
   margin-bottom: 10px;
+  padding: 0;
 }
 .right_addr h4{
   padding: 0;
   margin: 0;
   font-size: .6em;
   font-weight: bold;
+}
+.right_phone{
+  padding: 0;
+  text-align: right;
 }
 .right_cal{
   border: 1px solid #9A9FA1;
@@ -203,6 +209,8 @@
 }
 .right_cal h3{
   font-size: 1em;  
+  text-align: center;
+  font-weight: bold;
 }
 .room{
   padding: .5em;
@@ -222,7 +230,7 @@
 }
 .avail_rooms h3{
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 .avail_rooms h4{
@@ -238,8 +246,36 @@
   padding: 6px;
   float: left;
 }
-@media (max-width: 1000px){
+@media (max-width: 1024px){
   .content{
     width: 100%;
+  }
+  .main_cap h4{
+    font-size: 1.4em;
+  }
+  .main_cap span{
+    font-size: 1em;
+  }
+  .main_nav_int img{
+    width: 90%;
+  }
+  .mid_int img{
+    width: 100%;
+  }
+  .main_nav_left{
+    .main_nav_list ul li{
+    font-size: 1em;
+    }
+  }
+  .mid_img a{
+    font-size: 1.2em;
+  }
+  .right_addr h4{
+    font-size: 1em;
+  }
+}
+@media (max-width: 475px){
+  .mid_img a{
+    font-size: .8em;
   }
 }
