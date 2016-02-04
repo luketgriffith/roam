@@ -311,6 +311,54 @@
     text-align: center;
   }
 }
+//profile page
+.prof_content{
+  width: 80%;
+}
+.prof_main{
+  height: 250px;
+  padding-top: 1rem;
+  background-image: url('https://images.unsplash.com/photo-1451186859696-371d9477be93?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=793b5d1d4707b9d5685bb15e8a99467e')
+}
+.prof_nav{
+  padding: 0;
+}
+.prof_nav ul{
+  padding: 0;
+  list-style: none;
+  li{
+    padding: 0;
+  }
+}
+.prof_name{
+  position: relative;
+}
+.overlay{
+  background-color: #8EAFC5;
+  height: 200px;
+  opacity: .6;
+}
+.prof_int{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.prof_links{
+  padding: 0;
+}
+.prof_btn{
+  padding: 0;
+}
+.prof_soc{
+  padding: 0;
+}
+.prof_web{
+  padding: 0;
+}
+
+
+
+
 //media queries
 @media (max-width: 1024px){
   .content{
