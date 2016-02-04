@@ -24,6 +24,7 @@
   .main_nav_left .main_cap {
     padding: .5rem; }
   .main_nav_left .main_nav_list {
+    padding: 0;
     border: 1px solid #9A9FA1; }
   .main_nav_left .main_nav_list ul {
     list-style: none;
@@ -182,7 +183,10 @@
   border-bottom: none;
   overflow-x: scroll;
   width: 100%; }
+  .right_cal table {
+    border: none; }
   .right_cal td {
+    border-bottom: 1px solid #9A9FA1;
     border-right: 1px solid black; }
 
 .right_cal h3 {
@@ -222,6 +226,42 @@
   padding: 6px;
   float: left; }
 
+.connect_area {
+  padding: 0; }
+
+.connection {
+  padding: .5rem; }
+
+.conn_img {
+  padding: 0; }
+  .conn_img img {
+    display: block;
+    margin: .5rem auto;
+    width: 80%; }
+
+.connection_int {
+  border: 1px solid #9A9FA1;
+  padding: 0; }
+
+.conn_label {
+  padding: 0;
+  padding-left: .2rem; }
+  .conn_label hr {
+    margin: 10px 0; }
+  .conn_label h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px; }
+  .conn_label span {
+    font-size: .7em; }
+  .conn_label .conn_btn {
+    padding: .5rem 0; }
+  .conn_label button {
+    margin: 0;
+    width: 85%;
+    padding: .5rem;
+    text-align: center; }
+
 @media (max-width: 1024px) {
   .content {
     width: 100%; }
@@ -245,7 +285,16 @@
     font-size: 1.2em; }
 
   .right_addr h4 {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .conn_label {
+    margin: 10px 0; }
+    .conn_label h4 {
+      font-size: 1.3em; }
+    .conn_label span {
+      font-size: 1.1em; }
+    .conn_label .conn_btn {
+      margin: 10px 0; } }
 @media (max-width: 475px) {
   .mid_img a {
     font-size: .8em; } }

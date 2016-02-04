@@ -28,6 +28,7 @@
     padding: .5rem;
   }
   .main_nav_list{
+    padding: 0;
     border: 1px solid #9A9FA1;
   }
   .main_nav_list ul{
@@ -218,8 +219,11 @@
   border-bottom: none;
   overflow-x: scroll;
   width: 100%;
+  table{
+    border: none;
+  }
   td{
-
+    border-bottom: 1px solid #9A9FA1;
     border-right: 1px solid black;
   }
 }
@@ -262,6 +266,52 @@
   padding: 6px;
   float: left;
 }
+//connection page
+.connect_area{
+  padding: 0;
+}
+.connection{
+  padding: .5rem;
+  
+}
+.conn_img{
+  padding: 0;
+  img{
+    display: block;
+    margin: .5rem auto;
+    width: 80%;
+  }
+}
+
+.connection_int{
+  border: 1px solid #9A9FA1;
+  padding: 0;
+}
+.conn_label{
+  padding: 0;
+  padding-left:.2rem;
+  hr{
+    margin: 10px 0;
+  }
+  h4{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+  }
+  span{
+    font-size: .7em;
+  }
+  .conn_btn{
+    padding: .5rem 0;
+  }
+  button{
+    margin: 0;
+    width: 85%;
+    padding: .5rem;
+    text-align: center;
+  }
+}
+//media queries
 @media (max-width: 1024px){
   .content{
     width: 100%;
@@ -288,6 +338,18 @@
   }
   .right_addr h4{
     font-size: 1em;
+  }
+  .conn_label{
+    margin: 10px 0;
+    h4{
+      font-size: 1.3em;
+    }
+    span{
+      font-size: 1.1em;
+    }
+    .conn_btn{
+      margin: 10px 0;
+    }
   }
 }
 @media (max-width: 475px){
