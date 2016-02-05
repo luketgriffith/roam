@@ -40,7 +40,7 @@
 
 
 <div class="prof_content row">
-  <div class="prof_nav large-2 columns">
+  <div class="prof_nav large-2 small-12 columns">
     <ul>
           <li>Home</li>
           <li>Members</li>
@@ -50,33 +50,39 @@
           <li>Help</li>
         </ul>
   </div>
-  <div class="prof_main large-10 columns">
-    <div class="large-3 columns">
+  <div class="prof_main large-10  small-12 columns">
+  <div class="overlay small-12 columns"></div>
+    <div class="prof_main_int small-12 columns">
+    <div class="prof_img large-3 medium-4 small-4 columns">
       <img src="http://lorempixel.com/200/250">
     </div>
-    <div class="prof_name large-9 columns">
-      <div class="overlay small-12 columns"></div>
+    <div class="prof_name large-9 small-8 columns">
+      
       <div class="prof_int small-12 columns">
       <h3>John Doe</h3>
-      <span>ABC Position</span>
+      <span><strong>ABC Position</strong></span>
       <span>XYZ Company</span>
       <div class="prof_links small-12 columns">
-        <div class="prof_btn small-4 columns">
+        <div class="prof_btn large-3 small-6 columns">
           <button class="button">Connect</button>
         </div>
-        <div class="prof_soc small-3 columns">
-          <span>322 Connections</span><br>
-          <i class="fa fa-facebook-official"></i>
-          <i class="fa fa-twitter-square"></i>
-          <i class="fa fa-linkedin-square"></i>
+        <div class="prof_soc large-5 small-6 columns">
+          <div class="small-12 columns">
+          <span>322 Connections</span>
+          </div>
+          <div class="small-12 columns">
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
+          <a href="#"><i class="fa fa-twitter-square"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </div>
 
 
         </div>
-        <div class="prof_web small-3 columns end"><a href="#">Website Link</a></div>
+        <div class="prof_web large-3 small-6 columns end"><a href="#">Website Link</a></div>
       </div>
     </div>
     </div>
-
+    </div>
   </div>
  
 </div>
@@ -87,6 +93,9 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
+  <script>
+        $(document).foundation();
+    </script>
 </body>
 
 
