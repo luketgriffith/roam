@@ -1,9 +1,40 @@
+
+$dark-grey: rgb(78,72,65);
+$light-grey: rgb(188, 185, 174);
+$white: rgb(242, 240, 235);
+$light-blue: rgb(180, 213, 235);
+$dark-blue: rgb(40, 59, 77);
+$brown: rgb(90, 70, 51);
+body{
+  background-color: $white;
+}
+.button{
+  background-color: $dark-blue;
+  border-radius: 3px;
+  color: $white;
+}
 ////Header////
 .name i{
   margin: 0 15px;
+  background-color: $dark-grey;
+}
+.top-bar{
+  background-color: $dark-grey;
+  color: $white;
+}
+.contain-to-grid{
+ background-color: $dark-grey; 
+}
+
+#wat{
+  background-color: $dark-grey;
+}
+#wat2{
+ background-color: $dark-grey; 
 }
 .main-menu li{
   border-bottom: 1px solid white;
+  background-color: $dark-grey;
 }
 .main-menu i{
   float: right;
@@ -11,6 +42,9 @@
 }
 .top-bar-section .dropdown li{
   width: 200%;
+  a{
+    background-color: $dark-grey;
+  }
 }
 .content{
   width: 70%;
@@ -313,12 +347,54 @@
 }
 //profile page
 .prof_content{
-  width: 80%;
+  padding: 0;
+  position: relative;
+  height: 280px;
+  background-image: url('https://images.unsplash.com/photo-1451186859696-371d9477be93?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=793b5d1d4707b9d5685bb15e8a99467e')
 }
 .prof_main{
-  height: 250px;
   padding: 0;
-  background-image: url('https://images.unsplash.com/photo-1451186859696-371d9477be93?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=793b5d1d4707b9d5685bb15e8a99467e')
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.prof_right{
+  padding: 0;
+  position: relative;
+  height: 280px;
+}
+.name_job{
+  padding: 0;
+}
+.prof_left{
+  padding: .5em;
+  height: 280px;
+  position: relative;
+  img{
+    // width: 95%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    max-width: 95%;
+    max-height: 95%;
+  }
+  overflow: hidden;
+}
+.prof_right_links{
+  padding: 0;
+  font-size: 2.5em;
+}
+.prof_right_btn{
+  padding: 0;
+
+  button{
+    margin-bottom: 0;
+    width: 100%;
+  }
 }
 .prof_nav{
   padding: 0;
@@ -330,14 +406,12 @@
     padding: 0;
   }
 }
-.prof_name{
-  position: relative;
-}
+
 .overlay{
   background-color: #8EAFC5;
-  height: 100%;
   opacity: .6;
   padding: 0;
+  height: 100%; 
 }
 .prof_main_int{
   position: absolute;
@@ -348,8 +422,14 @@
     // height: 90%;
   }
 }
+.prof_whole{
+  padding: 0;
+  position: absolute;
+  bottom: 0px;
+}
 .prof_int{
   padding: 0;
+  margin-bottom: 20px;
   span{
     margin: 10px 20px 10px 0;
   }
@@ -361,6 +441,7 @@
 .prof_btn{
   padding: 0;
   padding-top: 1.3rem;
+
 }
 .prof_soc{
   text-align: center;
@@ -387,18 +468,50 @@
     text-decoration: underline;
   }
 }
+.prof_right_links{
 
+  a{
+    color: black;
+  }
 
-
+}
+.other_connect{
+  font-size: .3em;
+}
+.connect{
+  display: none;
+}
+.prof_right_site{
+  padding: 0;
+  position: relative;
+  height: 50px;
+  padding-left: 1.5rem;
+  a{
+    color: black;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0px;
+  }
+}
+.prof_posts{
+  padding: 0;
+  .prof_posts_left{
+    padding: 0;
+    padding-right: .25rem;
+  }
+  .prof_right_posts{
+    padding: 0;
+    padding-left: .25rem;
+  }
+}
 
 //media queries
 @media (max-width: 1024px){
+  
   .content{
     width: 100%;
   }
-  .prof_content{
-    width: 100%;
-  }
+  
   .main_cap h4{
     font-size: 1.8em;
   }
@@ -448,8 +561,22 @@
   .prof_web{
     padding-top: 0;
   }
+  .prof_right_btn{
+    
+  }
 }
 @media (max-width: 768px){
+  .other_connect{
+    display: none;
+  }
+  // .prof_content{
+  //   text-align: center;
+  // }
+  .prof_int{
+    span{
+      margin: 0;
+    }
+  }
   .right_content{
     display: none;
   }
@@ -490,6 +617,30 @@
       float: left;
     }
   }
+
+}
+@media(max-width: 640px){
+
+  .prof_right_btn{
+    button{
+      width: 55%;
+      margin-bottom: 10px;
+    }
+  }
+  .prof_right_links{
+    padding: 0;
+    div{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .prof_right_site{
+    padding-left:0;
+    padding-bottom: 1rem;
+    a{
+      position: static;
+    }
+  }
 }
 @media (max-width: 475px){
   .mid_img a{
@@ -504,5 +655,8 @@
   }
   .prof_name{
     padding: 0;
+  }
+  .prof_links{
+    clear: left;
   }
 }
