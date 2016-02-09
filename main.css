@@ -6,13 +6,23 @@ body {
   border-radius: 3px;
   color: #f2f0eb; }
 
+.name a {
+  width: 20%; }
+.name img {
+  width: 45%; }
+
 .name i {
   margin: 0 15px;
   background-color: #4e4841; }
 
+.title_logo {
+  max-width: 8%; }
+
 .top-bar {
   background-color: #4e4841;
   color: #f2f0eb; }
+  .top-bar .title-area {
+    width: 20%; }
 
 .contain-to-grid {
   background-color: #4e4841; }
@@ -59,6 +69,8 @@ body {
       font-size: .8rem;
       text-decoration: underline;
       margin: 10px 0; }
+    .main_nav_left .main_nav_list ul a {
+      color: black; }
 
 .copyright {
   font-size: .6em; }
@@ -246,8 +258,8 @@ body {
   padding-left: 0; }
 
 .room_btn a {
-  color: white;
-  background-color: #0297C2;
+  color: #f2f0eb;
+  background-color: #283b4d;
   padding: 6px;
   float: left; }
 
@@ -342,6 +354,8 @@ body {
   .prof_nav ul li {
     padding: 0;
     font-size: 1.2em; }
+  .prof_nav ul a {
+    color: black; }
 
 .overlay {
   background-color: #b4d5eb;
@@ -487,7 +501,7 @@ body {
     display: none; }
 
   .main_nav_list {
-    height: 150px;
+    height: 215px;
     overflow-y: scroll; }
 
   .post_img img {
@@ -508,7 +522,10 @@ body {
     width: 85%; }
   .create_post select {
     width: 85%;
-    float: left; } }
+    float: left; }
+
+  .main_cap {
+    text-align: center; } }
 @media (max-width: 640px) {
   .prof_right_btn button {
     width: 55%;
@@ -524,7 +541,10 @@ body {
     padding-left: 0;
     padding-bottom: 1rem; }
     .prof_right_site a {
-      position: static; } }
+      position: static; }
+
+  .mid_int_top {
+    display: none; } }
 @media (max-width: 475px) {
   .mid_img a {
     font-size: .8em; }

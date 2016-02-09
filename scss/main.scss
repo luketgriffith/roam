@@ -8,19 +8,35 @@ $brown: rgb(90, 70, 51);
 body{
   background-color: $white;
 }
+
 .button{
   background-color: $dark-blue;
   border-radius: 3px;
   color: $white;
 }
 ////Header////
+.name{
+  a{
+    width: 20%;
+  }
+  img{
+    width: 45%;
+  }
+}
 .name i{
   margin: 0 15px;
   background-color: $dark-grey;
+
+}
+.title_logo{
+  max-width: 8%;
 }
 .top-bar{
   background-color: $dark-grey;
   color: $white;
+  .title-area{
+    width: 20%;
+  }
 }
 .contain-to-grid{
  background-color: $dark-grey; 
@@ -73,6 +89,9 @@ body{
       font-size: .8rem;
       text-decoration: underline;
       margin: 10px 0;
+    }
+    a{
+      color: black;
     }
   }
 }
@@ -295,8 +314,8 @@ body{
   padding-left: 0;
 }
 .room_btn a{
-  color: white;
-  background-color: #0297C2;
+  color: $white;
+  background-color: $dark-blue;
   padding: 6px;
   float: left;
 }
@@ -407,6 +426,9 @@ body{
   li{
     padding: 0;
     font-size: 1.2em;
+  }
+  a{
+    color: black;
   }
 }
 
@@ -591,7 +613,7 @@ body{
   }
 
   .main_nav_list{
-    height: 150px;
+    height: 215px;
     overflow-y: scroll;
     
   }
@@ -626,7 +648,9 @@ body{
       float: left;
     }
   }
-
+  .main_cap{
+    text-align: center;
+  }
 }
 @media(max-width: 640px){
 
@@ -649,6 +673,9 @@ body{
     a{
       position: static;
     }
+  }
+  .mid_int_top{
+    display: none;
   }
 }
 @media (max-width: 475px){
