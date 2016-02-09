@@ -33,7 +33,7 @@ body{
  background-color: $dark-grey; 
 }
 .main-menu li{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid $white;
   background-color: $dark-grey;
 }
 .main-menu i{
@@ -54,7 +54,7 @@ body{
   padding: .5rem;
   .main_nav_int{
     padding: .5rem;
-    border: 1px solid #9A9FA1;
+    border: 1px solid $light-grey;
     text-align: center;
     // margin-bottom: 15px;
   }
@@ -63,7 +63,7 @@ body{
   }
   .main_nav_list{
     padding: 0;
-    border: 1px solid #9A9FA1;
+    border: 1px solid $light-grey;
   }
   .main_nav_list ul{
     list-style: none;
@@ -114,12 +114,12 @@ body{
   }
   .mid_int_top{
     padding: .5em;
-    border: 1px solid #9A9FA1;
+    border: 1px solid $light-grey;
     margin-bottom: 10px;
   }
   .create_post{
     padding: .5rem;
-    border: 1px solid #9A9FA1;
+    border: 1px solid $light-grey;
     margin: 10px 0;
     .create_two{
       padding: 0;
@@ -152,12 +152,12 @@ body{
   padding: .5rem;
   .right_int{
     padding: .5rem;
-    border: 1px solid #9A9FA1;
+    border: 1px solid $light-grey;
   }
 }
 .post{
   margin: 10px 0;
-  border: 1px solid #9A9FA1;
+  border: 1px solid $light-grey;
   hr{
     margin: 5px 0;
   }
@@ -210,7 +210,7 @@ body{
   padding: .5rem;
   a{
     padding: 3px;
-    border: 1px solid #9A9FA1;
+    border: 1px solid $light-grey;
     color: black;
     float: left;
   }
@@ -249,7 +249,7 @@ body{
   text-align: right;
 }
 .right_cal{
-  border: 1px solid #9A9FA1;
+  border: 1px solid $light-grey;
   border-bottom: none;
   overflow-x: scroll;
   width: 100%;
@@ -257,8 +257,8 @@ body{
     border: none;
   }
   td{
-    border-bottom: 1px solid #9A9FA1;
-    border-right: 1px solid black;
+    border-bottom: 1px solid $light-grey;
+    border-right: 1px solid $dark-grey;
   }
 }
 .right_cal h3{
@@ -270,7 +270,7 @@ body{
   padding: .5em;
 }
 .avail_rooms{
-  border: 1px solid #9A9FA1;
+  border: 1px solid $light-grey;
   border-top: none;
   padding: 0;
   height: 400px;
@@ -318,7 +318,7 @@ body{
 }
 
 .connection_int{
-  border: 1px solid #9A9FA1;
+  border: 1px solid $light-grey;
   padding: 0;
 }
 .conn_label{
@@ -375,7 +375,7 @@ body{
     // width: 95%;
     display: block;
     margin: 0 auto;
-    border: 2px solid #FFFFFF;
+    border: 2px solid $white;
     position: absolute;
     bottom: 5px;
     left: 5px;
@@ -397,18 +397,21 @@ body{
   }
 }
 .prof_nav{
-  padding: 0;
+  padding: .5rem;
+
 }
 .prof_nav ul{
-  padding: 0;
+  border: 1px solid $light-grey;
+  padding: .5rem;
   list-style: none;
   li{
     padding: 0;
+    font-size: 1.2em;
   }
 }
 
 .overlay{
-  background-color: #8EAFC5;
+  background-color: $light-blue;
   opacity: .6;
   padding: 0;
   height: 100%; 
@@ -446,7 +449,7 @@ body{
 .prof_soc{
   text-align: center;
   a{
-    color: black;
+    color: $dark-blue;
   }
   div{
     padding: 0;
@@ -464,14 +467,14 @@ body{
   padding: 0;
   padding-top: 3.2rem;
   a{
-    color: black;
+    color: $dark-blue;
     text-decoration: underline;
   }
 }
 .prof_right_links{
 
   a{
-    color: black;
+    color: $dark-blue;
   }
 
 }
@@ -480,6 +483,10 @@ body{
 }
 .connect{
   display: none;
+}
+.about_me{
+  margin-top: 10px;
+  border: 1px solid $light-grey;
 }
 .prof_right_site{
   padding: 0;
@@ -504,7 +511,9 @@ body{
     padding-left: .25rem;
   }
 }
-
+.prof_content{
+  margin-top: .5rem;
+}
 //media queries
 @media (max-width: 1024px){
   
