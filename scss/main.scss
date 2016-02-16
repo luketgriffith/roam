@@ -13,30 +13,47 @@ body{
   background-color: $dark-blue;
   border-radius: 3px;
   color: $white;
+  border: 2px solid $white;
 }
 ////Header////
 .name{
   a{
-    width: 20%;
+    // width: 20%;
   }
   img{
-    width: 45%;
+    width: 80px;
   }
 }
+
+
+
 .name i{
   margin: 0 15px;
   background-color: $dark-grey;
 
 }
-.title_logo{
-  max-width: 8%;
-}
+
 .top-bar{
   background-color: $dark-grey;
   color: $white;
   .title-area{
     width: 20%;
   }
+  .toggle-topbar.menu-icon {
+    // width: 100px;
+      right: -400%;
+    a{
+      width: 200px;
+      // margin-left: 40px;
+    }
+    img{
+      position: absolute;
+      left: -50%;
+      width: 75px;
+      // margin: 0 20px;
+    }
+  }
+
 }
 .contain-to-grid{
  background-color: $dark-grey; 
@@ -135,6 +152,7 @@ body{
     padding: .5em;
     border: 1px solid $light-grey;
     margin-bottom: 10px;
+    // background-color: $light-blue;
   }
   .create_post{
     padding: .5rem;
@@ -165,6 +183,17 @@ body{
   .create_post i{
     font-size: 3.2em;
     float: right;
+  }
+  .filter_feed{
+    margin-top: 20px;
+    padding: 0;
+    span{
+      padding: 0;
+      text-align: left;
+    }
+    div{
+      padding: 0;
+    }
   }
 }
 .right_content{
@@ -419,6 +448,7 @@ body{
   padding: .5rem;
 
 }
+
 .prof_nav ul{
   border: 1px solid $light-grey;
   padding: .5rem;
@@ -653,7 +683,9 @@ body{
   }
 }
 @media(max-width: 640px){
-
+  .big-logo{
+    display: none;
+  }
   .prof_right_btn{
     button{
       width: 55%;
@@ -679,12 +711,21 @@ body{
   }
 }
 @media (max-width: 475px){
+  .create_post{
+    div{
+    padding: 0;
+    }
+  }
   .mid_img a{
     font-size: .8em;
   }
   .main_nav_list{
     height: 150px;
     overflow-y: scroll;
+
+  }
+  .main_nav_left .main_cap{
+    padding: 0;
   }
   .prof_img{
     padding: 0;
@@ -694,5 +735,32 @@ body{
   }
   .prof_links{
     clear: left;
+  }
+  .post{
+    padding: .2rem;
+  }
+  .post_name{
+    padding-left: .2rem;
+    h4{
+      font-size: 1.1em;
+    }
+    span{
+      font-size: .8em;
+    }
+  }
+  .post_img{
+    img{
+      width: 100%;
+    }
+  }
+  .post_date{
+    padding: 0;
+  }
+  .post_text{
+    font-size: .8rem;
+    padding: 0;
+  }
+  .post_buttons{
+    padding: 0;
   }
 }
