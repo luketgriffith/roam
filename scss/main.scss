@@ -566,6 +566,9 @@ body{
 .prof_content{
   margin-top: .5rem;
 }
+.name_job_left{
+  display: none;
+}
 //media queries
 @media (max-width: 1024px){
   
@@ -683,13 +686,15 @@ body{
   }
 }
 @media(max-width: 640px){
+
   .big-logo{
     display: none;
   }
   .prof_right_btn{
     button{
-      width: 55%;
-      margin-bottom: 10px;
+      width: 85%;
+      margin-bottom: 0px;
+      margin-top: 10px;
     }
   }
   .prof_right_links{
@@ -701,7 +706,7 @@ body{
   }
   .prof_right_site{
     padding-left:0;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     a{
       position: static;
     }
@@ -709,8 +714,31 @@ body{
   .mid_int_top{
     display: none;
   }
+  .prof_int{
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 475px){
+  .name_job{
+    display: none;
+  }
+  .name_job_left{
+    display: block;
+    padding-left: .5rem;
+    padding-bottom: .2rem;
+    h3{
+      font-size: 1.7em;
+      margin-bottom: 0;
+    }
+  }
+  .prof_left img{
+    bottom: 85px;
+    max-height: 200px;
+  }
+  .prof_whole{
+    bottom: 60px;
+    padding-left: .5rem;
+  }
   .create_post{
     div{
     padding: 0;
