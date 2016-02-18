@@ -33,10 +33,12 @@ body {
   background-color: #4e4841; }
 
 #wat {
-  background-color: #4e4841; }
+  background-color: #4e4841;
+  font-family: bauer bodoni black; }
 
 #wat2 {
-  background-color: #4e4841; }
+  background-color: #4e4841;
+  font-family: bauer bodoni black; }
 
 .main-menu li {
   border-bottom: 1px solid white;
@@ -195,12 +197,10 @@ body {
   .post_date span {
     font-size: .6em; }
 
-.post_text {
-  margin-top: 10px; }
-  .post_text p {
-    text-align: left;
-    font-size: .8em;
-    font-family: helvetica regular, sans-serif; }
+.post_text p {
+  text-align: left;
+  font-size: .8em;
+  font-family: helvetica regular, sans-serif; }
 
 .post_img_main {
   padding: 0; }
@@ -225,7 +225,8 @@ body {
       border: none;
       font-family: helvetica regular, sans-serif; }
   .post_buttons .report_btn {
-    padding: 0; }
+    padding: 0;
+    padding-top: .7rem; }
   .post_buttons .report_btn a {
     float: right;
     font-size: .7em;
@@ -393,12 +394,13 @@ body {
 
 .prof_nav ul {
   border: 1px solid #bcb9ae;
-  padding: .5rem;
+  padding: 0 0 0 .2rem;
   list-style: none; }
   .prof_nav ul li {
     padding: 0;
-    font-size: 1.2em; }
+    font-size: 1em; }
   .prof_nav ul a {
+    font-family: helvetica regular, sans-serif;
     color: black; }
 
 .overlay {
@@ -413,6 +415,11 @@ body {
   left: 0%; }
   .prof_main_int .prof_img img {
     width: 100%; }
+
+.name_job h3 {
+  font-family: Bauer Bodoni Black; }
+.name_job span {
+  font-family: helvetica regular, sans-serif; }
 
 .prof_whole {
   padding: 0;
@@ -457,6 +464,15 @@ body {
 .prof_right_links a {
   color: #283b4d; }
 
+.post_text {
+  padding: .5rem; }
+  .post_text p {
+    margin: 0; }
+
+.post_buttons {
+  padding: .5rem;
+  padding-top: 0; }
+
 .other_connect {
   font-size: .3em; }
 
@@ -465,7 +481,14 @@ body {
 
 .about_me {
   margin-top: 10px;
-  border: 1px solid #bcb9ae; }
+  border: 1px solid #bcb9ae;
+  padding: .5rem; }
+  .about_me h4 {
+    margin: 0;
+    font-family: Bauer Bodoni Black; }
+  .about_me p {
+    font-family: helvetica regular, sans-serif;
+    margin: 0; }
 
 .prof_right_site {
   padding: 0;
@@ -492,6 +515,10 @@ body {
 
 .name_job_left {
   display: none; }
+  .name_job_left h3 {
+    font-family: Bauer Bodoni Black; }
+  .name_job_left span {
+    font-family: helvetica regular, sans-serif; }
 
 @media (max-width: 1024px) {
   .content {
@@ -682,14 +709,16 @@ body {
   .post_buttons {
     padding: 0; }
 
-  .connection .conn_label {
-    margin: 0; }
-  .connection h4 {
-    margin: 0; }
-  .connection span {
-    font-size: .75em; }
-  .connection .conn_btn {
-    margin: 0; }
+  .connection {
+    padding-bottom: 0; }
+    .connection .conn_label {
+      margin: 0; }
+    .connection h4 {
+      margin: 0; }
+    .connection span {
+      font-size: .75em; }
+    .connection .conn_btn {
+      margin: 0; }
 
   .main_cap {
     padding: 1rem 0;
