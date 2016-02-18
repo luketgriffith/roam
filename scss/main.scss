@@ -102,6 +102,7 @@ body{
   .main_nav_list{
     padding: 0;
     border: 1px solid $light-grey;
+    // background-color: $light-grey;
   }
   .main_nav_list ul{
     list-style: none;
@@ -164,9 +165,12 @@ body{
   }
   .create_post{
     font-family: helvetica regular, sans-serif;
-    padding: .5rem;
+    padding: .5rem 0;
     border: 1px solid $light-grey;
     margin: 10px 0;
+    .post_input{
+      padding-left: .5rem;
+    }
     .create_two{
       padding: 0;
       padding-right: .5rem;
@@ -197,9 +201,12 @@ body{
     font-family: helvetica regular, sans-serif;
     margin-top: 20px;
     padding: 0;
+    text-align: right;
     span{
+      line-height: 40px;
       padding: 0;
-      text-align: left;
+      margin: 0 10px;
+      
     }
     div{
       padding: 0;
@@ -214,6 +221,8 @@ body{
   }
 }
 .post{
+  // background-color: $light-grey;
+  padding: 0;
   margin: 10px 0;
   border: 1px solid $light-grey;
   hr{
@@ -280,6 +289,7 @@ body{
   .like_btn{
     padding: 0;
     a{
+      padding: 6px 8px;
       background-color: $light-blue;
       color: white;
       border: none;
@@ -383,11 +393,11 @@ body{
   
 }
 .conn_img{
-  padding: 0;
+  padding: .5rem;
   img{
     display: block;
-    margin: .5rem auto;
-    width: 80%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -396,18 +406,22 @@ body{
   padding: 0;
 }
 .conn_label{
-  padding: 0;
-  padding-left:.2rem;
+  padding: .5rem;
+  div{
+    padding: 0;
+  }
   hr{
     margin: 10px 0;
   }
   h4{
+    font-family: Bauer Bodoni Black;
     font-size: 1em;
     font-weight: bold;
     margin: 10px 0px 5px 0px;
   }
   span{
-    font-size: .7em;
+    font-family: helvetica regular, sans-serif;
+    font-size: .8em;
   }
   .conn_btn{
     padding: .5rem 0;
@@ -806,9 +820,7 @@ body{
 
     }
   }
-  .main_nav_left .main_cap{
-    padding: 0;
-  }
+  
   .prof_img{
     padding: 0;
   }
@@ -847,5 +859,23 @@ body{
   }
   .post_buttons{
     padding: 0;
+  }
+  .connection{
+    .conn_label{
+      margin: 0;
+    }
+    h4{
+      margin: 0;
+    }
+    span{
+      font-size: .5em;
+    }
+    .conn_btn{
+      margin: 0;
+    }
+  }
+  .main_cap{
+    padding: 1rem 0; 
+    text-align: left;
   }
 }
