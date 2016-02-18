@@ -1,19 +1,19 @@
 
 $dark-grey: rgb(78,72,65);
 $light-grey: rgb(188, 185, 174);
-$white: rgb(242, 240, 235);
+$white: white;
 $light-blue: rgb(180, 213, 235);
 $dark-blue: rgb(40, 59, 77);
 $brown: rgb(90, 70, 51);
 body{
-  background-color: $white;
+  background-color: white;
 }
 
 .button{
-  background-color: $dark-blue;
+  background-color: $light-blue;
   border-radius: 3px;
-  color: $white;
-  border: 2px solid $white;
+  color: white;
+  font-family: helvetica regular, sans-serif;
 }
 ////Header////
 .name{
@@ -36,6 +36,7 @@ body{
 .top-bar{
   background-color: $dark-grey;
   color: $white;
+  font-family: Bauer Bodoni Black;
   .title-area{
     width: 20%;
   }
@@ -77,6 +78,7 @@ body{
   width: 200%;
   a{
     background-color: $dark-grey;
+    font-family: helvetica regular, sans-serif;
   }
 }
 .content{
@@ -93,6 +95,9 @@ body{
   }
   .main_cap{
     padding: .5rem;
+    h4{
+      font-family: Bauer Bodoni Black;
+    }
   }
   .main_nav_list{
     padding: 0;
@@ -104,11 +109,11 @@ body{
     margin: 0;
     li{
       font-size: .8rem;
-      text-decoration: underline;
       margin: 10px 0;
     }
     a{
       color: black;
+      font-family: helvetica regular, sans-serif;
     }
   }
 }
@@ -122,9 +127,11 @@ body{
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0;
+  font-family: Bauer Bodoni Black;
 }
 .main_cap span{
   font-size: .7rem;
+  font-family: helvetica regular, sans-serif;
 }
 .mid_content{
 
@@ -147,6 +154,7 @@ body{
   a{
     color: black;
     font-size: .7rem;
+    font-family: helvetica regular, sans-serif;
   }
   .mid_int_top{
     padding: .5em;
@@ -155,6 +163,7 @@ body{
     // background-color: $light-blue;
   }
   .create_post{
+    font-family: helvetica regular, sans-serif;
     padding: .5rem;
     border: 1px solid $light-grey;
     margin: 10px 0;
@@ -185,6 +194,7 @@ body{
     float: right;
   }
   .filter_feed{
+    font-family: helvetica regular, sans-serif;
     margin-top: 20px;
     padding: 0;
     span{
@@ -220,10 +230,12 @@ body{
   }
 }
 .post_name{
+  font-family: helvetica regular, sans-serif;
   padding: 0;
   padding-top: .5rem;
   text-align: left;
     h4{
+      font-family: Bauer Bodoni Black;
       margin: 0;
       font-size: 1em;
       font-weight: bold;
@@ -246,6 +258,7 @@ body{
   p{
     text-align: left;
     font-size: .8em;
+    font-family: helvetica regular, sans-serif;
   }
 }
 .post_img_main{
@@ -261,9 +274,17 @@ body{
     border: 1px solid $light-grey;
     color: black;
     float: left;
+    font-family: helvetica regular, sans-serif;
+
   }
   .like_btn{
     padding: 0;
+    a{
+      background-color: $light-blue;
+      color: white;
+      border: none;
+      font-family: helvetica regular, sans-serif;
+    }
   }
   .report_btn{
     padding: 0;
@@ -271,6 +292,7 @@ body{
   .report_btn a{
     float: right;
     font-size: .7em;
+    font-family: helvetica regular, sans-serif;
   }
 }
 .right_content{
@@ -305,11 +327,13 @@ body{
     border: none;
   }
   td{
+    font-family: helvetica regular, sans-serif;
     border-bottom: 1px solid $light-grey;
     border-right: 1px solid $dark-grey;
   }
 }
 .right_cal h3{
+  font-family: Bauer Bodoni Black;
   font-size: 1em;  
   text-align: center;
   font-weight: bold;
@@ -331,12 +355,14 @@ body{
   }
 }
 .avail_rooms h3{
+  font-family: helvetica regular, sans-serif;
   text-align: center;
   font-size: 1em;
   font-weight: bold;
 }
 .avail_rooms h4{
   font-size: 1em;
+  font-family: helvetica regular, sans-serif;
 }
 .room_btn{
   padding-top: 1rem;
@@ -344,7 +370,7 @@ body{
 }
 .room_btn a{
   color: $white;
-  background-color: $dark-blue;
+  background-color: $light-blue;
   padding: 6px;
   float: left;
 }
@@ -722,6 +748,15 @@ body{
   .name_job{
     display: none;
   }
+  .create_post{
+    input{
+      width: 100%;
+    }
+  }
+  .mid_int .create_post i {
+    font-size: 2.2em;
+    float: left;
+}
   .name_job_left{
     display: block;
     padding-left: .5rem;
@@ -739,18 +774,37 @@ body{
     bottom: 60px;
     padding-left: .5rem;
   }
-  .create_post{
-    div{
-    padding: 0;
+  .mid_int{
+
+    .create_post{
+      border: none;
+      div{
+      padding: 0;
+      }
+      .create_two{
+        padding: 0;
+      }
     }
   }
   .mid_img a{
     font-size: .8em;
   }
-  .main_nav_list{
-    height: 150px;
-    overflow-y: scroll;
+  .main_nav_left{
+    padding: 0;
+    .main_nav_list{
+      background-color: $light-grey;
+      height: 40px;
+      white-space: nowrap;
+      ul{
 
+        li{
+          display: inline-block;
+          margin: 0 20px;
+          color: white;
+        }
+      }
+
+    }
   }
   .main_nav_left .main_cap{
     padding: 0;
@@ -766,14 +820,17 @@ body{
   }
   .post{
     padding: .2rem;
+    font-family: helvetica regular, sans-serif;
   }
   .post_name{
     padding-left: .2rem;
     h4{
       font-size: 1.1em;
+      font-family: helvetica regular, sans-serif;
     }
     span{
       font-size: .8em;
+      font-family: helvetica regular, sans-serif;
     }
   }
   .post_img{
