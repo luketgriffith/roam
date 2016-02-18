@@ -520,6 +520,9 @@ body {
   .name_job_left span {
     font-family: helvetica regular, sans-serif; }
 
+.prof_nav2 {
+  display: none; }
+
 @media (max-width: 1024px) {
   .content {
     width: 100%; }
@@ -627,6 +630,9 @@ body {
   .prof_int {
     margin-bottom: 0; } }
 @media (max-width: 475px) {
+  .prof_nav {
+    display: none; }
+
   .name_job {
     display: none; }
 
@@ -638,19 +644,26 @@ body {
     float: left; }
 
   .name_job_left {
-    display: block;
+    display: inline-block;
     padding-left: .5rem;
-    padding-bottom: .2rem; }
+    padding-bottom: .2rem;
+    padding-top: 1rem; }
     .name_job_left h3 {
       font-size: 1.7em;
       margin-bottom: 0; }
 
   .prof_left img {
-    bottom: 85px;
+    bottom: 5px;
     max-height: 200px; }
 
+  .prof_left {
+    height: 180px; }
+
+  .prof_right {
+    height: 180px; }
+
   .prof_whole {
-    bottom: 60px;
+    bottom: -15px;
     padding-left: .5rem; }
 
   .mid_int .create_post {
@@ -672,6 +685,21 @@ body {
       .main_nav_left .main_nav_list ul li {
         display: inline-block;
         margin: 0 20px;
+        color: white; }
+
+  .prof_nav2 {
+    padding: 0;
+    background-color: #bcb9ae;
+    display: inline-block;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: scroll; }
+    .prof_nav2 ul {
+      margin: 0;
+      padding: 0; }
+      .prof_nav2 ul li {
+        display: inline-block;
+        margin: 10px 20px;
         color: white; }
 
   .prof_img {
@@ -722,4 +750,7 @@ body {
 
   .main_cap {
     padding: 1rem 0;
-    text-align: left; } }
+    text-align: left; }
+
+  .prof_content {
+    margin: 0; } }
