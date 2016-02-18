@@ -805,6 +805,7 @@ body{
   .mid_int{
 
   .create_post{
+    background-color: white;
     margin: 0;
     // padding: 0;
     border: none;
@@ -816,11 +817,10 @@ body{
     }
     i{
       float: left;
+      color: black;
     }
   }
-  .create_btn{
-      padding: .5rem;
-  }
+
   }
   .mid_img a{
     font-size: .8em;
@@ -841,13 +841,18 @@ body{
     padding: 0;
   }
   .main_content{
+    border-top: 2px solid $light-blue;
     padding: 0;
   }
   .main_nav_left .main_cap{
     padding: 0;
+    padding-top: 1rem;
   }
   .main_nav_left{
     padding: 0;
+    .main_nav_int{
+      padding-top: .5rem;
+    }
   }
   .main_nav_list{
     white-space: nowrap;
