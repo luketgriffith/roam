@@ -1,12 +1,11 @@
-body {
-  background-color: #f2f0eb; }
-
 .button {
-  background-color: #283b4d;
+  background-color: #92B8CE;
   border-radius: 3px;
-  color: #f2f0eb;
-  border: 2px solid #f2f0eb; }
+  color: white;
+  font-family: Helvetica Regular, sans-serif; }
 
+.name a {
+  font-family: Bauer Bodoni Black; }
 .name img {
   width: 80px; }
 
@@ -32,10 +31,12 @@ body {
   background-color: #4e4841; }
 
 #wat {
-  background-color: #4e4841; }
+  background-color: #4e4841;
+  font-family: Bauer Bodoni Black; }
 
 #wat2 {
-  background-color: #4e4841; }
+  background-color: #4e4841;
+  font-family: Bauer Bodoni Black; }
 
 .main-menu li {
   border-bottom: 1px solid #f2f0eb;
@@ -48,33 +49,41 @@ body {
 .top-bar-section .dropdown li {
   width: 200%; }
   .top-bar-section .dropdown li a {
-    background-color: #4e4841; }
+    background-color: #4e4841;
+    font-family: Bauer Bodoni Black; }
 
 .content {
   width: 70%;
   margin: 0 auto; }
 
 .main_nav_left {
-  padding: .5rem; }
+  background-color: #4e4841;
+  padding: .5rem;
+  padding-top: 0; }
   .main_nav_left .main_nav_int {
     padding: .5rem;
-    border: 1px solid #bcb9ae;
+    padding-top: 0;
     text-align: center; }
   .main_nav_left .main_cap {
-    padding: .5rem; }
+    padding: .5rem;
+    color: white; }
+    .main_nav_left .main_cap h4 {
+      font-family: Bauer Bodoni Black;
+      color: white; }
+    .main_nav_left .main_cap span {
+      font-family: Helvetica Regular, sans-serif; }
   .main_nav_left .main_nav_list {
     padding: 0;
-    border: 1px solid #bcb9ae; }
+    font-family: Helvetica Regular, sans-serif; }
   .main_nav_left .main_nav_list ul {
     list-style: none;
     padding: .5rem;
     margin: 0; }
     .main_nav_left .main_nav_list ul li {
       font-size: .8rem;
-      text-decoration: underline;
       margin: 10px 0; }
     .main_nav_left .main_nav_list ul a {
-      color: black; }
+      color: white; }
 
 .copyright {
   font-size: .6em; }
@@ -91,6 +100,7 @@ body {
   font-size: .7rem; }
 
 .mid_content {
+  background-color: white;
   padding: .5rem; }
 
 .mid_int {
@@ -108,26 +118,30 @@ body {
     font-size: .7rem; }
   .mid_int .mid_int_top {
     padding: .5em;
-    border: 1px solid #bcb9ae;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-family: Helvetica Regular, sans-serif; }
   .mid_int .create_post {
+    font-family: Helvetica Regular, sans-serif;
     padding: .5rem;
     border: 1px solid #bcb9ae;
-    margin: 10px 0; }
+    margin: 10px 0;
+    background-color: #4e4841; }
+    .mid_int .create_post input {
+      margin-bottom: 0; }
     .mid_int .create_post .create_two {
-      padding: 0;
-      padding-right: .5rem; }
+      padding: 0; }
     .mid_int .create_post .create_img {
-      padding: 0;
-      padding-right: .5rem; }
+      padding: 0; }
+      .mid_int .create_post .create_img a {
+        color: white; }
     .mid_int .create_post .create_select select {
       margin-bottom: 0; }
     .mid_int .create_post .create_btn {
-      padding: 0; }
+      padding: 0;
+      padding-left: 1.5rem; }
       .mid_int .create_post .create_btn button {
         height: 35px;
         line-height: 5px;
-        float: right;
         margin-bottom: 0; }
   .mid_int .create_post i {
     font-size: 3.2em;
@@ -142,16 +156,30 @@ body {
       padding: 0; }
 
 .right_content {
-  padding: .5rem; }
+  background-color: #4e4841;
+  color: white;
+  padding: .5rem;
+  padding-top: 0; }
+  .right_content h4 {
+    font-family: Helvetica Regular, sans-serif;
+    color: white; }
+  .right_content h3 {
+    font-family: Bauer Bodoni Black;
+    color: white; }
   .right_content .right_int {
     padding: .5rem;
-    border: 1px solid #bcb9ae; }
+    padding-top: 0; }
+  .right_content td {
+    font-family: Helvetica Regular, sans-serif; }
 
 .post {
+  font-family: Helvetica Regular, sans-serif;
   margin: 10px 0;
   border: 1px solid #bcb9ae; }
   .post hr {
     margin: 5px 0; }
+  .post h4 {
+    font-family: Bauer Bodoni Black; }
 
 .post_img {
   padding: 0;
@@ -228,7 +256,8 @@ body {
   text-align: right; }
 
 .right_cal {
-  border: 1px solid #bcb9ae;
+  padding-left: .2rem;
+  padding-right: .2rem;
   border-bottom: none;
   overflow-x: scroll;
   width: 100%; }
@@ -247,11 +276,16 @@ body {
   padding: .5em; }
 
 .avail_rooms {
-  border: 1px solid #bcb9ae;
   border-top: none;
   padding: 0;
   height: 400px;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  font-family: Helvetica Regular, sans-serif; }
+  .avail_rooms h3 {
+    font-family: Helvetica Regular, sans-serif;
+    font-weight: bold; }
+  .avail_rooms h4 {
+    font-family: Helvetica Regular, sans-serif; }
   .avail_rooms p {
     font-size: .6em; }
   .avail_rooms .room_int {
@@ -270,10 +304,11 @@ body {
   padding-left: 0; }
 
 .room_btn a {
-  color: #f2f0eb;
-  background-color: #283b4d;
+  color: white;
+  background-color: #92B8CE;
   padding: 6px;
-  float: left; }
+  float: left;
+  border-radius: 2px; }
 
 .connect_area {
   padding: 0; }
@@ -566,7 +601,11 @@ body {
     display: none; }
 
   .prof_int {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .name {
+    width: 0;
+    margin: 0; } }
 @media (max-width: 475px) {
   .name_job {
     display: none; }
@@ -587,18 +626,47 @@ body {
     bottom: 60px;
     padding-left: .5rem; }
 
-  .create_post div {
-    padding: 0; }
+  .mid_int .create_post {
+    margin: 0;
+    border: none; }
+    .mid_int .create_post div {
+      padding: 0; }
+    .mid_int .create_post input {
+      width: 100%; }
+    .mid_int .create_post i {
+      float: left; }
+  .mid_int .create_btn {
+    padding: .5rem; }
 
   .mid_img a {
     font-size: .8em; }
 
   .main_nav_list {
-    height: 150px;
-    overflow-y: scroll; }
+    height: 50px; }
+
+  .main_cap h4 {
+    font-size: 1.2em; }
+  .main_cap span {
+    font-size: .8em; }
+
+  .mid_content {
+    padding: 0; }
+
+  .main_content {
+    padding: 0; }
 
   .main_nav_left .main_cap {
     padding: 0; }
+
+  .main_nav_left {
+    padding: 0; }
+
+  .main_nav_list {
+    white-space: nowrap;
+    background-color: #bcb9ae; }
+    .main_nav_list li {
+      padding: 0 .5rem;
+      display: inline-block; }
 
   .prof_img {
     padding: 0; }
