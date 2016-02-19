@@ -69,15 +69,18 @@ body {
     .main_nav_left .main_cap h4 {
       font-family: Bauer Bodoni Black; }
   .main_nav_left .main_nav_list {
-    padding: 0;
-    border: 1px solid #bcb9ae; }
+    padding: 0; }
   .main_nav_left .main_nav_list ul {
     list-style: none;
-    padding: .5rem;
+    padding: 0;
     margin: 0; }
     .main_nav_left .main_nav_list ul li {
       font-size: .8rem;
-      margin: 10px 0; }
+      margin: 10px 0;
+      background-color: #bcb9ae;
+      padding: .5rem; }
+    .main_nav_left .main_nav_list ul li:hover {
+      background-color: #4e4841; }
     .main_nav_left .main_nav_list ul a {
       color: black;
       font-family: helvetica regular, sans-serif; }
