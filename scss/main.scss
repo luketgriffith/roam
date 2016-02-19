@@ -21,7 +21,7 @@ body{
     // width: 20%;
   }
   img{
-    width: 80px;
+    width: 47px;
   }
 }
 
@@ -29,12 +29,12 @@ body{
 
 .name i{
   margin: 0 15px;
-  background-color: $dark-grey;
+  // background-color: $dark-grey;
 
 }
 
 .top-bar{
-  background-color: $dark-grey;
+  // background-color: $dark-grey;
   color: $white;
   font-family: Bauer Bodoni Black;
   .title-area{
@@ -49,28 +49,32 @@ body{
     }
     img{
       position: absolute;
+      top: -2px;
       left: -50%;
-      width: 75px;
+      width: 37px;
       // margin: 0 20px;
     }
   }
 
 }
 .contain-to-grid{
- background-color: $dark-grey; 
+ // background-color: $dark-grey; 
 }
 
 #wat{
-  background-color: $dark-grey;
+  // background-color: $dark-grey;
   font-family: bauer bodoni black;
 }
 #wat2{
- background-color: $dark-grey; 
+ // background-color: $dark-grey; 
  font-family: bauer bodoni black;
+}
+.mobile_menu{
+  display: none;
 }
 .main-menu li{
   border-bottom: 1px solid $white;
-  background-color: $dark-grey;
+  // background-color: $dark-grey;
 }
 .main-menu i{
   float: right;
@@ -79,7 +83,7 @@ body{
 .top-bar-section .dropdown li{
   width: 200%;
   a{
-    background-color: $dark-grey;
+    // background-color: $dark-grey;
     font-family: helvetica regular, sans-serif;
   }
 }
@@ -507,9 +511,11 @@ body{
     padding: .52rem;
     font-size: 1em;
     margin: 0 6px 6px 6px;
+    
   }
   li:hover{
-    background-color: $dark-grey;
+    // background-color: $dark-grey;
+    box-shadow: 1px 1px 1px black;
   }
   a{
     font-family: helvetica regular, sans-serif;
@@ -820,6 +826,9 @@ body{
   }
 }
 @media (max-width: 475px){
+  .mobile_menu{
+    display: block;
+  }
   .prof_nav{
     display: none;
   }
@@ -879,38 +888,12 @@ body{
   .main_nav_left{
     padding: 0;
     .main_nav_list{
-      background-color: $light-grey;
-      height: 40px;
-      white-space: nowrap;
-      ul{
-
-        li{
-          display: inline-block;
-          margin: 0 20px;
-          color: white;
-        }
-      }
+      display: none;
+      
 
     }
   }
-  .prof_nav2{
-    padding: 0;
-    background-color: $light-grey;
-    display: inline-block;
-    padding: 0;
-    white-space: nowrap;
-    overflow-x: scroll;
-    ul{
-      margin: 0;
-      padding: 0;
-      li{
-        display: inline-block;
-        margin: 10px 20px;
-        color: white;
-
-      }
-    }
-  }
+  
   
   .prof_img{
     padding: 0;
@@ -999,7 +982,7 @@ body{
 
   }
   .about_me{
-    margin: 0;
+    margin: 15px 0;
     border: none;
     h4{
       font-weight: bold;
