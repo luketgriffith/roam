@@ -125,7 +125,7 @@ body {
     border: 1px solid #bcb9ae;
     margin: 10px 0; }
     .mid_int .create_post .post_input {
-      padding-left: 0; }
+      padding-left: .5rem; }
     .mid_int .create_post .create_two {
       padding: 0;
       padding-right: .5rem; }
@@ -146,14 +146,13 @@ body {
     float: right; }
   .mid_int .filter_feed {
     font-family: helvetica regular, sans-serif;
-    margin-top: 0px;
+    margin-top: 20px;
     padding: 0;
     text-align: right; }
     .mid_int .filter_feed span {
       line-height: 40px;
       padding: 0;
-      margin: 0px 5px;
-      font-size: .8em; }
+      margin: 0 10px; }
     .mid_int .filter_feed div {
       padding: 0; }
 
@@ -754,4 +753,13 @@ body {
     text-align: left; }
 
   .prof_content {
-    margin: 0; } }
+    margin: 0; }
+
+  .mid_int .create_post .post_input {
+    padding-left: 0; }
+
+  .mid_int .filter_feed {
+    margin-top: 0; }
+    .mid_int .filter_feed span {
+      font-size: .8em;
+      margin: 0 5px; } }

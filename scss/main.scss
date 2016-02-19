@@ -171,7 +171,7 @@ body{
     border: 1px solid $light-grey;
     margin: 10px 0;
     .post_input{
-      padding-left: 0;
+      padding-left: .5rem;
     }
     .create_two{
       padding: 0;
@@ -201,15 +201,14 @@ body{
   }
   .filter_feed{
     font-family: helvetica regular, sans-serif;
-    margin-top: 0px;
+    margin-top: 20px;
     padding: 0;
     text-align: right;
-
     span{
       line-height: 40px;
       padding: 0;
-      margin: 0px 5px;
-      font-size: .8em;
+      margin: 0 10px;
+      
     }
     div{
       padding: 0;
@@ -952,5 +951,15 @@ body{
   }
   .prof_content{
     margin: 0;
+  }
+  .mid_int .create_post .post_input {
+    padding-left: 0;
+  }
+  .mid_int .filter_feed{
+    margin-top: 0;
+    span{
+      font-size: .8em;
+      margin: 0 5px;
+    }
   }
 }
