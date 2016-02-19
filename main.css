@@ -667,7 +667,8 @@ body {
     padding-left: .5rem; }
 
   .mid_int .create_post {
-    border: none; }
+    border: none;
+    margin-top: 0; }
     .mid_int .create_post div {
       padding: 0; }
     .mid_int .create_post .create_two {
@@ -712,6 +713,7 @@ body {
     clear: left; }
 
   .post {
+    margin-top: 0;
     padding: .2rem;
     font-family: helvetica regular, sans-serif; }
 
@@ -762,4 +764,23 @@ body {
     margin-top: 0; }
     .mid_int .filter_feed span {
       font-size: .8em;
-      margin: 0 5px; } }
+      margin: 0 5px; }
+
+  .prof_right_site a {
+    background-color: #bcb9ae;
+    text-decoration: none;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 3px; }
+
+  .about_me {
+    margin: 0;
+    border: none; }
+    .about_me h4 {
+      font-weight: bold;
+      font-family: Bauer Bodoni Black; }
+    .about_me p {
+      font-family: helvetica regular, sans-serif; }
+
+  select {
+    margin-bottom: 10px; } }

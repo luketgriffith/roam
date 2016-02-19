@@ -754,6 +754,7 @@ body{
   }
 
   .create_post{
+
     input{
       width: 85%;
     }
@@ -842,7 +843,9 @@ body{
   .mid_int{
 
     .create_post{
+      // background-color: $dark-grey;
       border: none;
+      margin-top: 0;
       div{
       padding: 0;
       }
@@ -900,6 +903,7 @@ body{
     clear: left;
   }
   .post{
+    margin-top: 0;
     padding: .2rem;
     font-family: helvetica regular, sans-serif;
   }
@@ -962,4 +966,28 @@ body{
       margin: 0 5px;
     }
   }
+  .prof_right_site{
+    a{
+      background-color: $light-grey;
+      text-decoration: none;
+      color: white;
+      padding: 3px 5px;
+      border-radius: 3px;
+    }
+  }
+  .about_me{
+    margin: 0;
+    border: none;
+    h4{
+      font-weight: bold;
+      font-family: Bauer Bodoni Black;
+    }
+    p{
+      font-family: helvetica regular, sans-serif;
+    }
+  }
+  select{
+    margin-bottom: 10px;
+  }
+  
 }
