@@ -490,15 +490,22 @@ body{
 .prof_nav{
   padding: .5rem;
 
+
 }
 
 .prof_nav ul{
-  border: 1px solid $light-grey;
+  // background-color: $light-grey;
+  // border: 1px solid $light-grey;
   padding: 0 0 0 .2rem;
   list-style: none;
   li{
-    padding: 0;
+    background-color: $light-grey;
+    padding: .52rem;
     font-size: 1em;
+    margin: 0 6px 6px 6px;
+  }
+  li:hover{
+    background-color: $dark-grey;
   }
   a{
     font-family: helvetica regular, sans-serif;
@@ -582,6 +589,15 @@ body{
   }
 
 }
+.prof_right_site{
+    a{
+      background-color: $light-grey;
+      text-decoration: none;
+      color: white;
+      padding: 3px 5px;
+      border-radius: 3px;
+    }
+  }
 .post_text{
   padding: .5rem;
   p{
@@ -617,8 +633,7 @@ body{
   height: 50px;
   padding-left: 1.5rem;
   a{
-    color: black;
-    text-decoration: underline;
+    
     position: absolute;
     bottom: 0px;
   }
@@ -975,6 +990,10 @@ body{
       border-radius: 3px;
     }
   }
+  .prof_right_links{
+    
+
+  }
   .about_me{
     margin: 0;
     border: none;
@@ -989,5 +1008,5 @@ body{
   select{
     margin-bottom: 10px;
   }
-  
+
 }

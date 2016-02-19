@@ -393,12 +393,15 @@ body {
   padding: .5rem; }
 
 .prof_nav ul {
-  border: 1px solid #bcb9ae;
   padding: 0 0 0 .2rem;
   list-style: none; }
   .prof_nav ul li {
-    padding: 0;
-    font-size: 1em; }
+    background-color: #bcb9ae;
+    padding: .52rem;
+    font-size: 1em;
+    margin: 0 6px 6px 6px; }
+  .prof_nav ul li:hover {
+    background-color: #4e4841; }
   .prof_nav ul a {
     font-family: helvetica regular, sans-serif;
     color: black; }
@@ -464,6 +467,13 @@ body {
 .prof_right_links a {
   color: #283b4d; }
 
+.prof_right_site a {
+  background-color: #bcb9ae;
+  text-decoration: none;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 3px; }
+
 .post_text {
   padding: .5rem; }
   .post_text p {
@@ -496,8 +506,6 @@ body {
   height: 50px;
   padding-left: 1.5rem; }
   .prof_right_site a {
-    color: black;
-    text-decoration: underline;
     position: absolute;
     bottom: 0px; }
 
