@@ -520,6 +520,7 @@ body{
   a{
     font-family: helvetica regular, sans-serif;
     color: black;
+    font-weight: bold;
   }
 }
 
@@ -601,7 +602,7 @@ body{
 }
 .prof_right_site{
     a{
-      background-color: $light-grey;
+      background-color: #333;
       text-decoration: none;
       color: white;
       padding: 3px 5px;
@@ -624,9 +625,19 @@ body{
 .connect{
   display: none;
 }
-.about_me{
+.about_title{
   margin-top: 10px;
+  background-color: #333;
+  h4{
+    font-family: Bauer Bodoni Black;
+    color: white;
+    margin: 3px 0;
+  }
+}
+.about_me{
+  margin-top: 0px;
   border: 1px solid $light-grey;
+  border-top: none;
   padding: .5rem;
   h4{
     margin: 0;
@@ -735,6 +746,21 @@ body{
   }
 }
 @media (max-width: 768px){
+  .mobile_menu{
+    display: block;
+  }
+  
+  .main_nav_left{
+    padding: 0;
+    .main_nav_list{
+      display: none;
+      
+
+    }
+  }
+  .prof_nav{
+    display: none;
+  }
   .other_connect{
     display: none;
   }
@@ -744,6 +770,17 @@ body{
   .prof_int{
     span{
       margin: 0;
+    }
+  }
+  .connection{
+    h4{
+      margin: 0;
+    }
+    .conn_label{
+      margin: 0;
+      span{
+        font-size: .8em;
+      }
     }
   }
   .right_content{
@@ -789,11 +826,25 @@ body{
     }
   }
   .main_cap{
-    text-align: center;
+    // text-align: center;
   }
 }
 @media(max-width: 640px){
+  .mobile_menu{
+    display: block;
+  }
 
+  .main_nav_left{
+    padding: 0;
+    .main_nav_list{
+      display: none;
+      
+
+    }
+  }
+  .prof_nav{
+    display: none;
+  }
   .big-logo{
     display: none;
   }

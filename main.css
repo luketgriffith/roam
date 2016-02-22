@@ -402,7 +402,8 @@ body {
     box-shadow: 1px 1px 1px black; }
   .prof_nav ul a {
     font-family: helvetica regular, sans-serif;
-    color: black; }
+    color: black;
+    font-weight: bold; }
 
 .overlay {
   background-color: #b4d5eb;
@@ -466,7 +467,7 @@ body {
   color: #283b4d; }
 
 .prof_right_site a {
-  background-color: #bcb9ae;
+  background-color: #333;
   text-decoration: none;
   color: white;
   padding: 3px 5px;
@@ -487,9 +488,18 @@ body {
 .connect {
   display: none; }
 
-.about_me {
+.about_title {
   margin-top: 10px;
+  background-color: #333; }
+  .about_title h4 {
+    font-family: Bauer Bodoni Black;
+    color: white;
+    margin: 3px 0; }
+
+.about_me {
+  margin-top: 0px;
   border: 1px solid #bcb9ae;
+  border-top: none;
   padding: .5rem; }
   .about_me h4 {
     margin: 0;
@@ -574,11 +584,29 @@ body {
   .prof_web {
     padding-top: 0; } }
 @media (max-width: 768px) {
+  .mobile_menu {
+    display: block; }
+
+  .main_nav_left {
+    padding: 0; }
+    .main_nav_left .main_nav_list {
+      display: none; }
+
+  .prof_nav {
+    display: none; }
+
   .other_connect {
     display: none; }
 
   .prof_int span {
     margin: 0; }
+
+  .connection h4 {
+    margin: 0; }
+  .connection .conn_label {
+    margin: 0; }
+    .connection .conn_label span {
+      font-size: .8em; }
 
   .right_content {
     display: none; }
@@ -605,11 +633,19 @@ body {
     width: 85%; }
   .create_post select {
     width: 85%;
-    float: left; }
-
-  .main_cap {
-    text-align: center; } }
+    float: left; } }
 @media (max-width: 640px) {
+  .mobile_menu {
+    display: block; }
+
+  .main_nav_left {
+    padding: 0; }
+    .main_nav_left .main_nav_list {
+      display: none; }
+
+  .prof_nav {
+    display: none; }
+
   .big-logo {
     display: none; }
 
