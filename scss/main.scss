@@ -751,6 +751,7 @@ body{
   }
   
   .main_nav_left{
+    background-color: $light-grey;
     padding: 0;
     .main_nav_list{
       display: none;
@@ -764,9 +765,7 @@ body{
   .other_connect{
     display: none;
   }
-  // .prof_content{
-  //   text-align: center;
-  // }
+  
   .prof_int{
     span{
       margin: 0;
@@ -826,7 +825,10 @@ body{
     }
   }
   .main_cap{
-    // text-align: center;
+    margin-top: 15px;
+    span{
+      font-size: 1.2em;
+    }
   }
 }
 @media(max-width: 640px){
